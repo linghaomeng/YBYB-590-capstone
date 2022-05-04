@@ -162,7 +162,7 @@ def run_client(addr):
                 c.send(msg)
                 c.close()
             except:
-                time.sleep(600)
+                time.sleep(300)
      # except :
      #    print("end client")
      #    print("deleting")
